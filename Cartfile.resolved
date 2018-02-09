@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" "4.6.0"
+github "ReactiveCocoa/ReactiveCocoa" "7.0.1"
+github "ReactiveCocoa/ReactiveSwift" "3.0.0"
+github "SwiftyJSON/SwiftyJSON" "4.0.0"
+github "antitypical/Result" "3.2.4"
+github "eggswift/ESTabBarController" "2.6"

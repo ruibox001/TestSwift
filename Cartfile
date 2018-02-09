@@ -1,0 +1,4 @@
+github "SwiftyJSON/SwiftyJSON"
+github "Alamofire/Alamofire" ~> 4.5
+github "ReactiveCocoa/ReactiveCocoa" ~> 7.0
+github "eggswift/ESTabBarController"

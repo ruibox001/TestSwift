@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2.6",
+  "iOS" : [
+    {
+      "name" : "ESTabBarController",
+      "hash" : "e846e09e37c3b3182fe1944fdc5f6681720cde7a63cb91d2631a0ddbcd2b42f0"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "3.0.1",
+  "iOS" : [
+    {
+      "name" : "RAMAnimatedTabBarController",
+      "hash" : "ec12137f150a6c39f16b872585b8a03bfdfb83e0db5b3fe16469e5e14cdce280"
+    }
+  ]
+}

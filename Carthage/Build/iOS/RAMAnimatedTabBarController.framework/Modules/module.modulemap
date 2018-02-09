@@ -1,0 +1,4 @@
+framework module RAMAnimatedTabBarController {
+    header "RAMAnimatedTabBarController-Swift.h"
+    requires objc
+}
