@@ -82,6 +82,7 @@
 		34D4DA6120106D8F00681AEF /* String+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4DA6020106D8F00681AEF /* String+SWFBuilder.swift */; };
 		34D7F60F202847D8004900C3 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D7F60E202847D8004900C3 /* WKWebViewController.swift */; };
 		34D7F61120285A56004900C3 /* URLRequest+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D7F61020285A56004900C3 /* URLRequest+SWFBuilder.swift */; };
+		7F339AEA2132AF93000E3658 /* UIViewXXYBoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F339AE92132AF91000E3658 /* UIViewXXYBoom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +184,7 @@
 		34D4DA6020106D8F00681AEF /* String+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SWFBuilder.swift"; sourceTree = "<group>"; };
 		34D7F60E202847D8004900C3 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 		34D7F61020285A56004900C3 /* URLRequest+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+SWFBuilder.swift"; sourceTree = "<group>"; };
+		7F339AE92132AF91000E3658 /* UIViewXXYBoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXXYBoom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 		34D4DA572010332600681AEF /* SWFBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				7F339AE92132AF91000E3658 /* UIViewXXYBoom.swift */,
 				34D4DA5E20106C8200681AEF /* UIImageView+SWFBuilder.swift */,
 				34D4DA5A2010362A00681AEF /* UIImage+SWFBuilder.swift */,
 				3457EEC62019BE8000F1F18A /* UIButton+SWFBuilder.swift */,
@@ -427,7 +430,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = wangshengyuan;
 				TargetAttributes = {
 					346F132E20037882007D755D = {
@@ -558,6 +561,7 @@
 				34D4DA592010337100681AEF /* UILabel+SWFBuilder.swift in Sources */,
 				34B3ECEF2011EE8D00EAD6FB /* UIViewController+SWFBuilder.swift in Sources */,
 				3447CD132005BADC00E92FBB /* ExampleHighlightableContentView.swift in Sources */,
+				7F339AEA2132AF93000E3658 /* UIViewXXYBoom.swift in Sources */,
 				347DE2EF201ECF12001F7C6C /* UIPickerView+SWFBuilder.swift in Sources */,
 				3457EED52019C51D00F1F18A /* UITextView+SWFBuilder.swift in Sources */,
 				3457EED12019C4E500F1F18A /* UITableView+SWFBuilder.swift in Sources */,
@@ -652,6 +656,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -659,6 +664,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -686,7 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -709,6 +715,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -716,6 +723,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -737,7 +745,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -750,13 +758,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JPYH2GZ99G;
+				DEVELOPMENT_TEAM = 7D5ZTC8VW5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/TestSwift/ESTabBarContentView",
 				);
 				INFOPLIST_FILE = TestSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soffice.test.TestSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -770,13 +779,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JPYH2GZ99G;
+				DEVELOPMENT_TEAM = 7D5ZTC8VW5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/TestSwift/ESTabBarContentView",
 				);
 				INFOPLIST_FILE = TestSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soffice.test.TestSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
