@@ -25,7 +25,7 @@ public class SecondViewController: BaseViewController {
         })
         
         self.addLeft(anyObject: "WKWebView" as AnyObject) { (v: UIView) in
-            self.navigationController?.pushViewController(WKWebViewController(), animated: true)
+            self.navigationController?.pushViewController(TestWKWebViewController(), animated: true)
         }
         
     }

@@ -9,17 +9,26 @@
 import Foundation
 import UIKit
 
-func MutableAttributedString(_ astr: NSAttributedString) -> NSMutableAttributedString {
-    return NSMutableAttributedString(attributedString: astr)
+func MutableAttributedString(_ attributeString: NSAttributedString) -> NSMutableAttributedString {
+    return NSMutableAttributedString(attributedString: attributeString)
 }
 
-func MutableAttributedString(_ str: String) -> NSMutableAttributedString {
-    return NSMutableAttributedString(string: str)
+func MutableAttributedString(_ string: String) -> NSMutableAttributedString {
+    return NSMutableAttributedString(string: string)
 }
 
 extension NSMutableAttributedString
 {
     
+    func mutableAttributedStringAppend(_ attributeString: NSAttributedString) -> NSMutableAttributedString {
+        self.append(attributeString)
+        return self
+    }
+    
+    func mutableAttributedStringAppend(_ attributeString: NSAttributedString, at loc: Int) -> NSMutableAttributedString {
+        self.insert(attributeString, at: loc)
+        return self
+    }
     
 }
 

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import WebKit
 
-public class WKWebViewController: BaseViewController, WKNavigationDelegate,WKUIDelegate {
+public class TestWKWebViewController: BaseViewController, WKNavigationDelegate,WKUIDelegate {
     
     var webView: WKWebView?
     

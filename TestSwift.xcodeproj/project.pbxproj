@@ -80,9 +80,19 @@
 		34D4DA5D2010379900681AEF /* UIColor+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4DA5C2010379900681AEF /* UIColor+SWFBuilder.swift */; };
 		34D4DA5F20106C8200681AEF /* UIImageView+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4DA5E20106C8200681AEF /* UIImageView+SWFBuilder.swift */; };
 		34D4DA6120106D8F00681AEF /* String+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4DA6020106D8F00681AEF /* String+SWFBuilder.swift */; };
-		34D7F60F202847D8004900C3 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D7F60E202847D8004900C3 /* WKWebViewController.swift */; };
+		34D7F60F202847D8004900C3 /* TestWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D7F60E202847D8004900C3 /* TestWKWebViewController.swift */; };
 		34D7F61120285A56004900C3 /* URLRequest+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D7F61020285A56004900C3 /* URLRequest+SWFBuilder.swift */; };
 		7F339AEA2132AF93000E3658 /* UIViewXXYBoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F339AE92132AF91000E3658 /* UIViewXXYBoom.swift */; };
+		8403FB302159BD2A00C37184 /* empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8403FB272159BD2800C37184 /* empty@2x.png */; };
+		8403FB312159BD2A00C37184 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8403FB282159BD2800C37184 /* back@3x.png */; };
+		8403FB322159BD2A00C37184 /* xxx@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8403FB292159BD2800C37184 /* xxx@3x.png */; };
+		8403FB332159BD2A00C37184 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403FB2A2159BD2800C37184 /* WKWebViewController.swift */; };
+		8403FB342159BD2A00C37184 /* WKUserContentController+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403FB2B2159BD2900C37184 /* WKUserContentController+SWFBuilder.swift */; };
+		8403FB352159BD2A00C37184 /* CGRect+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403FB2C2159BD2900C37184 /* CGRect+SWFBuilder.swift */; };
+		8403FB362159BD2A00C37184 /* NSMutableParagraphStyle+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403FB2D2159BD2900C37184 /* NSMutableParagraphStyle+SWFBuilder.swift */; };
+		8403FB372159BD2A00C37184 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8403FB2E2159BD2900C37184 /* 1.wav */; };
+		8403FB382159BD2A00C37184 /* AppDelegate+SWFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403FB2F2159BD2A00C37184 /* AppDelegate+SWFBuilder.swift */; };
+		8403FB3A2159BF5400C37184 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403FB392159BF5400C37184 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,9 +192,19 @@
 		34D4DA5C2010379900681AEF /* UIColor+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+SWFBuilder.swift"; sourceTree = "<group>"; };
 		34D4DA5E20106C8200681AEF /* UIImageView+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SWFBuilder.swift"; sourceTree = "<group>"; };
 		34D4DA6020106D8F00681AEF /* String+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SWFBuilder.swift"; sourceTree = "<group>"; };
-		34D7F60E202847D8004900C3 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		34D7F60E202847D8004900C3 /* TestWKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWKWebViewController.swift; sourceTree = "<group>"; };
 		34D7F61020285A56004900C3 /* URLRequest+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+SWFBuilder.swift"; sourceTree = "<group>"; };
 		7F339AE92132AF91000E3658 /* UIViewXXYBoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXXYBoom.swift; sourceTree = "<group>"; };
+		8403FB272159BD2800C37184 /* empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty@2x.png"; sourceTree = "<group>"; };
+		8403FB282159BD2800C37184 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		8403FB292159BD2800C37184 /* xxx@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xxx@3x.png"; sourceTree = "<group>"; };
+		8403FB2A2159BD2800C37184 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		8403FB2B2159BD2900C37184 /* WKUserContentController+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WKUserContentController+SWFBuilder.swift"; sourceTree = "<group>"; };
+		8403FB2C2159BD2900C37184 /* CGRect+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+SWFBuilder.swift"; sourceTree = "<group>"; };
+		8403FB2D2159BD2900C37184 /* NSMutableParagraphStyle+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableParagraphStyle+SWFBuilder.swift"; sourceTree = "<group>"; };
+		8403FB2E2159BD2900C37184 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		8403FB2F2159BD2A00C37184 /* AppDelegate+SWFBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+SWFBuilder.swift"; sourceTree = "<group>"; };
+		8403FB392159BF5400C37184 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,7 +299,8 @@
 				34B5207F2011C68500721686 /* SecondViewController.swift */,
 				34B520802011C68500721686 /* ThirdViewController.swift */,
 				34B5207B2011A15F00721686 /* TestViewController.swift */,
-				34D7F60E202847D8004900C3 /* WKWebViewController.swift */,
+				8403FB392159BF5400C37184 /* TableViewController.swift */,
+				34D7F60E202847D8004900C3 /* TestWKWebViewController.swift */,
 				3447CD032005BA2700E92FBB /* BaseNavigationController.swift */,
 				346F133220037882007D755D /* AppDelegate.swift */,
 				346F133620037882007D755D /* Main.storyboard */,
@@ -311,6 +332,15 @@
 		34D4DA572010332600681AEF /* SWFBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				8403FB2E2159BD2900C37184 /* 1.wav */,
+				8403FB2F2159BD2A00C37184 /* AppDelegate+SWFBuilder.swift */,
+				8403FB282159BD2800C37184 /* back@3x.png */,
+				8403FB2C2159BD2900C37184 /* CGRect+SWFBuilder.swift */,
+				8403FB272159BD2800C37184 /* empty@2x.png */,
+				8403FB2D2159BD2900C37184 /* NSMutableParagraphStyle+SWFBuilder.swift */,
+				8403FB2B2159BD2900C37184 /* WKUserContentController+SWFBuilder.swift */,
+				8403FB2A2159BD2800C37184 /* WKWebViewController.swift */,
+				8403FB292159BD2800C37184 /* xxx@3x.png */,
 				7F339AE92132AF91000E3658 /* UIViewXXYBoom.swift */,
 				34D4DA5E20106C8200681AEF /* UIImageView+SWFBuilder.swift */,
 				34D4DA5A2010362A00681AEF /* UIImage+SWFBuilder.swift */,
@@ -474,10 +504,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8403FB372159BD2A00C37184 /* 1.wav in Resources */,
+				8403FB302159BD2A00C37184 /* empty@2x.png in Resources */,
 				348F9159201ACF550097FD5E /* xxx.png in Resources */,
+				8403FB312159BD2A00C37184 /* back@3x.png in Resources */,
 				346F133D20037882007D755D /* LaunchScreen.storyboard in Resources */,
 				346F133A20037882007D755D /* Assets.xcassets in Resources */,
 				3439122C2006F7450071600C /* back@3x.png in Resources */,
+				8403FB322159BD2A00C37184 /* xxx@3x.png in Resources */,
 				346F133820037882007D755D /* Main.storyboard in Resources */,
 				3447CD192005C8B900E92FBB /* Tabbar.xcassets in Resources */,
 			);
@@ -527,6 +561,7 @@
 				34B5207E2011A2E100721686 /* FirstViewController.swift in Sources */,
 				34D7F61120285A56004900C3 /* URLRequest+SWFBuilder.swift in Sources */,
 				347DE2F2201ECF57001F7C6C /* UISlider+SWFBuilder.swift in Sources */,
+				8403FB342159BD2A00C37184 /* WKUserContentController+SWFBuilder.swift in Sources */,
 				3457EEC52019B78400F1F18A /* SFDefine.swift in Sources */,
 				34B520822011C68500721686 /* ThirdViewController.swift in Sources */,
 				3447CD142005BADC00E92FBB /* ExampleIrregularityContentView.swift in Sources */,
@@ -535,13 +570,16 @@
 				347DE2E8201EC2CC001F7C6C /* UIPageControl+SWFBuilder.swift in Sources */,
 				3457EECB2019C48000F1F18A /* UIScrollView+SWFBuilder.swift in Sources */,
 				34B520812011C68500721686 /* SecondViewController.swift in Sources */,
+				8403FB382159BD2A00C37184 /* AppDelegate+SWFBuilder.swift in Sources */,
 				34B5207420118C0600721686 /* Date+SWFBuilder.swift in Sources */,
 				347DE2F8201ED00B001F7C6C /* UIDatePicker+SWFBuilder.swift in Sources */,
 				347DE2F4201ECF99001F7C6C /* UIActivityIndicatorView+SWFBuilder.swift in Sources */,
 				3457EEC92019C43700F1F18A /* UICollectionView+SWFBuilder.swift in Sources */,
 				347DE2FC201EF833001F7C6C /* UICollectionViewLayout+SWFBuilder.swift in Sources */,
 				348F9157201ACA810097FD5E /* NSMutableArray+SWFBuilder.swift in Sources */,
+				8403FB352159BD2A00C37184 /* CGRect+SWFBuilder.swift in Sources */,
 				34D4DA6120106D8F00681AEF /* String+SWFBuilder.swift in Sources */,
+				8403FB332159BD2A00C37184 /* WKWebViewController.swift in Sources */,
 				347DE2FA201EF42F001F7C6C /* UICollectionViewFlowLayout+SWFBuilder.swift in Sources */,
 				3447CD102005BADC00E92FBB /* ExampleBackgroundContentView.swift in Sources */,
 				34B3ECF82011EF2800EAD6FB /* SFConfig.swift in Sources */,
@@ -560,6 +598,8 @@
 				347E7C122021664D00712875 /* SFProtocol.swift in Sources */,
 				34D4DA592010337100681AEF /* UILabel+SWFBuilder.swift in Sources */,
 				34B3ECEF2011EE8D00EAD6FB /* UIViewController+SWFBuilder.swift in Sources */,
+				8403FB362159BD2A00C37184 /* NSMutableParagraphStyle+SWFBuilder.swift in Sources */,
+				8403FB3A2159BF5400C37184 /* TableViewController.swift in Sources */,
 				3447CD132005BADC00E92FBB /* ExampleHighlightableContentView.swift in Sources */,
 				7F339AEA2132AF93000E3658 /* UIViewXXYBoom.swift in Sources */,
 				347DE2EF201ECF12001F7C6C /* UIPickerView+SWFBuilder.swift in Sources */,
@@ -575,7 +615,7 @@
 				348F9155201ACA400097FD5E /* NSArray+SWFBuilder.swift in Sources */,
 				34284EF62020218D002ED9EF /* SFMake.swift in Sources */,
 				34B5207C2011A15F00721686 /* TestViewController.swift in Sources */,
-				34D7F60F202847D8004900C3 /* WKWebViewController.swift in Sources */,
+				34D7F60F202847D8004900C3 /* TestWKWebViewController.swift in Sources */,
 				347DE2F0201ECF12001F7C6C /* UIWindow+SWFBuilder.swift in Sources */,
 				3457EEC72019BE8000F1F18A /* UIButton+SWFBuilder.swift in Sources */,
 				34D4DA5F20106C8200681AEF /* UIImageView+SWFBuilder.swift in Sources */,
@@ -758,7 +798,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7D5ZTC8VW5;
+				DEVELOPMENT_TEAM = E3CHVDJPBW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -779,7 +819,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7D5ZTC8VW5;
+				DEVELOPMENT_TEAM = E3CHVDJPBW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",

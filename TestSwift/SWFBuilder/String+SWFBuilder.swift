@@ -142,6 +142,18 @@ extension String
         return NSAttributedString.init(string: self)
     }
     
+    func strToAttrbuteStr(_ font: UIFont) -> NSAttributedString {
+        return AttributedString(self, font)
+    }
+    
+    func strToAttrbuteStr(_ paragraphStyle: NSMutableParagraphStyle) -> NSAttributedString {
+        return AttributedString(self, paragraphStyle)
+    }
+    
+    func strToAttrbuteStr(_ font: UIFont, _ paragraphStyle: NSMutableParagraphStyle) -> NSAttributedString {
+        return AttributedString(self, paragraphStyle, font)
+    }
+    
     func strToMutableAttrbuteStr() -> NSMutableAttributedString {
         return NSMutableAttributedString.init(string: self)
     }
@@ -155,6 +167,13 @@ extension String
         let scan: Scanner = Scanner.init(string: self)
         var float: Float = Float()
         return (scan.scanFloat(UnsafeMutablePointer(&float)) && scan.isAtEnd)
+    }
+    
+    func strIsEmpty() -> Bool {
+        if self.count == 0 {
+            return true
+        }
+        return false
     }
     
     func strIsInt() -> Bool {
